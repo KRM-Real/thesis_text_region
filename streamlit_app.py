@@ -339,7 +339,10 @@ def _render_evaluation_panel(package_path: str | None, config: dict) -> None:
     model_id = str(package_manifest.get("model_id", ""))
     if not model_id:
         return
-    with st.expander("Evaluation report", expanded=False, icon=":material/assessment:"):
+    # Keep the saved evaluation summary visible on first load so users can
+    # inspect the study-level evidence without having to discover a collapsed
+    # panel. Detailed feature diagnostics remain grouped inside this section.
+    with st.expander("Evaluation report", expanded=True, icon=":material/assessment:"):
         run_paths = _evaluation_runs(model_id)
         if not run_paths:
             st.info(
