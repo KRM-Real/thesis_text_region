@@ -1,0 +1,7 @@
+delta_test_f1_vs_all,display_name,feature_count,feature_group,model_family,status,test_accuracy,test_f1,test_fn,test_fp,test_missing_cell_rate,test_no_detection_rate,test_precision,test_recall,test_sample_count,test_tn,test_tp,threshold,validation_f1
+-0.049056603773584895,Geometry and density,60,geometry_density,logistic_regression,completed,0.94921875,0.9509433962264151,2,11,0.0,0.0,0.9197080291970803,0.984375,256,117,126,0.5,0.9883268482490273
+-0.023076923076923106,Geometry plus spacing and alignment,66,geometry_plus_spacing,logistic_regression,completed,0.9765625,0.9769230769230769,1,5,0.0,0.0,0.9621212121212122,0.9921875,256,123,127,0.5,0.9961089494163424
+-0.011673151750972721,Stroke and shape,89,stroke_shape,logistic_regression,completed,0.98828125,0.9883268482490273,1,2,0.0,0.0,0.9844961240310077,0.9921875,256,126,127,0.7187349114462569,0.996078431372549
+-0.01158301158301156,"Edges, gradients, contrast, and sharpness",89,edge_contrast_sharpness,logistic_regression,completed,0.98828125,0.9884169884169884,0,3,0.0003551136363636364,0.0,0.9770992366412213,1.0,256,125,128,0.4621614066158373,0.9884169884169884
+-0.03875968992248058,Texture and local pixel relationships,41,texture,logistic_regression,completed,0.9609375,0.9612403100775194,4,6,0.0,0.0,0.9538461538461539,0.96875,256,122,124,0.8198973052815758,0.9803921568627451
+0.0,All enabled groups (reference),282,all_enabled,logistic_regression,completed,1.0,1.0,0,0,0.00011081560283687943,0.0,1.0,1.0,256,128,128,0.9213612857537781,1.0

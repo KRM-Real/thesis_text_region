@@ -1,0 +1,9 @@
+{
+  "candidate_count": 27,
+  "development_rows_after_refit": 1536,
+  "model_id": "model-20260928T151757Z-da2f4ad5-dcc28a58-train",
+  "run_id": "20260928T151757Z-da2f4ad5-dcc28a58-train",
+  "study_warning": "Pilot dataset package; limited to the supplied receipt dataset, configuration, and split; not evidence of universal authenticity or generalization.",
+  "training_rows": 1280,
+  "validation_rows": 256
+}

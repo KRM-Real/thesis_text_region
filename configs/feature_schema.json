@@ -1,0 +1,7 @@
+{
+  "schema_version": "features-1",
+  "aggregation_version": "aggregation-1",
+  "description": "Generated prototype schema. Exact enabled columns are written into each run artifact.",
+  "semantic_fields_allowed": false,
+  "default_statistics": ["mean", "median", "std", "iqr", "min", "max", "p10", "p90"]
+}

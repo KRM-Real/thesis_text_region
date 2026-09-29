@@ -1,0 +1,40 @@
+detector:
+  name: "EasyOCR CRAFT (detection-only)"
+  mode: "detection-only"
+  languages: ["en"]
+  gpu: false
+  status: "PILOT_DECISION"
+  text_threshold: 0.7
+  low_text: 0.4
+  link_threshold: 0.4
+  bbox_min_score: 0.2
+  min_size: 20
+  canvas_size: 2560
+  mag_ratio: 1.0
+crop_padding: 0
+minimum_region_size: 3
+preprocessing:
+  mode: "none"
+  scale: 1.0
+  clahe_clip_limit: 2.0
+  clahe_grid_size: [8, 8]
+features:
+  sharpness_laplacian_variance: true
+  edge_density: true
+  intensity_std: true
+  text_region_area_ratio: true
+edge:
+  method: "canny"
+  low_threshold: 100
+  high_threshold: 200
+aggregation:
+  statistics: ["mean", "std"]
+batch:
+  expected_real_count: 300
+  expected_ai_generated_count: 300
+  save_artifacts: "all"
+  random_seed: 42
+research_boundary:
+  recognized_text_used: false
+  semantic_features_used: false
+  classifier_scope: ["REAL", "AI_GENERATED"]

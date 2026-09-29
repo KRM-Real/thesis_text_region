@@ -1,0 +1,34 @@
+{
+  "canny_high": 200,
+  "canny_low": 100,
+  "component_min_area": 3,
+  "enabled_groups": [
+    "geometry_density",
+    "spacing_alignment",
+    "stroke_shape",
+    "edge_gradient",
+    "contrast_sharpness",
+    "texture"
+  ],
+  "glcm_angles": [
+    0.0,
+    0.7853981633974483,
+    1.5707963267948966,
+    2.356194490192345
+  ],
+  "glcm_distances": [
+    1
+  ],
+  "glcm_levels": 16,
+  "gradient_min_magnitude": 1.0,
+  "gradient_orientation_bins": 8,
+  "lbp_points": 8,
+  "lbp_radius": 1,
+  "mask_foreground_fraction": [
+    0.01,
+    0.6
+  ],
+  "row_tolerance_ratio": 0.02,
+  "schema_version": "features-1",
+  "status": "EXPERIMENTAL_FEATURE"
+}

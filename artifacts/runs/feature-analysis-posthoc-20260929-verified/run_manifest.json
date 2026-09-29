@@ -1,0 +1,139 @@
+{
+  "aggregation_version": "aggregation-1",
+  "audited_manifest_path": null,
+  "audited_manifest_sha256": null,
+  "completed_at_utc": "2026-09-28T18:08:13Z",
+  "configuration_path": "configs\\prototype.yaml",
+  "configuration_sha256": "fc8296f765c91bf1dd9d8d02fb72f116b1629bcdc4c57cb14ecb3748936c35ba",
+  "crop_preprocessing": {
+    "crop_padding_ratio": 0.05,
+    "detector_resize": "preserve_aspect_ratio",
+    "detector_scale": 1.0,
+    "feature_grayscale": "opencv_rgb2gray",
+    "mask_policy": "polygon_when_available_else_box",
+    "minimum_region_side": 3,
+    "resize_feature_crops": false
+  },
+  "detector": {
+    "backend": "easyocr_craft_detection_only",
+    "bbox_min_score": 0.2,
+    "canvas_size": 2560,
+    "config_sha256": "6503e5479c5977fa6350429123e7a7bba9774175c7ea058a113531189586ee34",
+    "gpu": false,
+    "languages": [
+      "en"
+    ],
+    "link_threshold": 0.4,
+    "low_text": 0.4,
+    "mag_ratio": 1.0,
+    "min_size": 20,
+    "model_directory": "easyocr-models",
+    "recognizer": false,
+    "status": "PILOT_DECISION",
+    "text_threshold": 0.7,
+    "version": "1.7.2",
+    "weights_identifier": "EasyOCR CRAFT default detector weights",
+    "weights_sha256": null
+  },
+  "failure_reason": null,
+  "feature_analysis": {
+    "artifact_sha256": {
+      "feature_analysis.json": "308b0f75eca52fdb6e5aa01693c0faf23e28c6490ee631f6013c574432ee651c",
+      "feature_group_summary.csv": "9e3a82b26721e3dbf76428c7ae3f3bbd26d12c91a836a88df3129eb20b40996f",
+      "feature_influence.csv": "6eb3ee19f0f631e41eb5c0531cf13108c3dcdb876daea61fb86169a23e981d55",
+      "feature_redundancy.csv": "b72121e00515e7a59b733008d660c084b6732970a22a5fc95582bd123bbbf1aa"
+    },
+    "input_checksum_provenance": "validated_reference_evaluation",
+    "reference_evaluation_run_id": "20260928T152141Z-da2f4ad5-dcc28a58-evaluate",
+    "reference_evaluation_run_path": "artifacts\\runs\\textfake-eval-20260928",
+    "reference_test_predictions_sha256": "d54e1ea5eaf355d3f45a186c4ff844b1a667d70ef0161013dfc2d85dea341bf6",
+    "source_feature_matrix_path": "artifacts\\runs\\textfake-feature-extraction-20260928-v2\\features\\image_features.csv",
+    "source_feature_matrix_sha256": "acf4f83206e1d71ee1a43b3a2453c90363c4123bb2f3ffed8e442a15baca2df7",
+    "source_feature_schema_path": "artifacts\\runs\\textfake-feature-extraction-20260928-v2\\features\\feature_schema.json",
+    "source_feature_schema_sha256": "39434e2328246aeb25b88d1c6d0f7c327187f1563b6fa06b11e5331a97d9e1c7",
+    "split_manifest_sha256": "1ff2cf2727df69e853e15726081ad8c420bf096307beda98747bce79668a9874",
+    "status": "posthoc_pilot"
+  },
+  "feature_schema_sha256": "39434e2328246aeb25b88d1c6d0f7c327187f1563b6fa06b11e5331a97d9e1c7",
+  "feature_schema_version": "features-1",
+  "hardware_context": {
+    "machine": "AMD64",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel"
+  },
+  "model_settings": {
+    "logistic_regression": {
+      "C": [
+        0.1,
+        1.0,
+        10.0
+      ],
+      "max_iter": 2000
+    },
+    "positive_label": "ai_generated",
+    "random_forest": {
+      "max_depth": [
+        null,
+        10
+      ],
+      "min_samples_leaf": [
+        1,
+        2,
+        5
+      ],
+      "n_estimators": [
+        200,
+        500
+      ]
+    },
+    "random_seed": 42,
+    "selection_metric": "f1_positive",
+    "svm": {
+      "C": [
+        0.1,
+        1.0,
+        10.0
+      ],
+      "gamma": [
+        "scale",
+        0.01,
+        0.1
+      ],
+      "kernels": [
+        "linear",
+        "rbf"
+      ]
+    },
+    "threshold_method": "validation_f1"
+  },
+  "random_seeds": {
+    "model": 42,
+    "split": 42
+  },
+  "run_id": "20260928T180733Z-fc8296f7-178f5179-evaluate",
+  "sample_counts": {
+    "test": 256,
+    "train": 1280,
+    "validation": 256
+  },
+  "selected_model_id": "model-20260928T151757Z-da2f4ad5-dcc28a58-train",
+  "software_versions": {
+    "Pillow": "12.3.0",
+    "PyYAML": "6.0.3",
+    "easyocr": "1.7.2",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "python": "3.13.2",
+    "scikit-image": "0.26.0",
+    "scikit-learn": "1.9.1",
+    "streamlit": "1.63.0",
+    "torch": "2.14.0"
+  },
+  "source_revision": "tree:178f5179164a369edd65596e440d2085a8767a034cff280150c646b17534e6c5",
+  "split_manifest_path": "data\\manifests\\textfake_split_manifest.csv",
+  "split_manifest_sha256": "1ff2cf2727df69e853e15726081ad8c420bf096307beda98747bce79668a9874",
+  "started_at_utc": "2026-09-28T18:08:13Z",
+  "status": "completed",
+  "threshold": 0.9213612857537781,
+  "threshold_method": "validation_f1"
+}

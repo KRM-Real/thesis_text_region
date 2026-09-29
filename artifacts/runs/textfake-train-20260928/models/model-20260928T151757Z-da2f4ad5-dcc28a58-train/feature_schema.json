@@ -1,0 +1,5628 @@
+{
+  "aggregation_version": "aggregation-1",
+  "columns": [
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-gray-std-v1+mean",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.gray_std.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.gray_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-gray-std-v1+median",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.gray_std.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.gray_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-gray-std-v1+std",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.gray_std.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.gray_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-gray-std-v1+iqr",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.gray_std.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.gray_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-gray-std-v1+min",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.gray_std.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.gray_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-gray-std-v1+max",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.gray_std.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.gray_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-gray-std-v1+p10",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.gray_std.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.gray_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-gray-std-v1+p90",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.gray_std.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.gray_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-region-ring-delta-v1+mean",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.local_ring_delta.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.local_ring_delta"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-region-ring-delta-v1+median",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.local_ring_delta.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.local_ring_delta"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-region-ring-delta-v1+std",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.local_ring_delta.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.local_ring_delta"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-region-ring-delta-v1+iqr",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.local_ring_delta.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.local_ring_delta"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-region-ring-delta-v1+min",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.local_ring_delta.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.local_ring_delta"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-region-ring-delta-v1+max",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.local_ring_delta.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.local_ring_delta"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-region-ring-delta-v1+p10",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.local_ring_delta.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.local_ring_delta"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-region-ring-delta-v1+p90",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.local_ring_delta.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.local_ring_delta"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-p10-p90-v1+mean",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.p10_p90_range.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.p10_p90_range"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-p10-p90-v1+median",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.p10_p90_range.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.p10_p90_range"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-p10-p90-v1+std",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.p10_p90_range.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.p10_p90_range"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-p10-p90-v1+iqr",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.p10_p90_range.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.p10_p90_range"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-p10-p90-v1+min",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.p10_p90_range.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.p10_p90_range"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-p10-p90-v1+max",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.p10_p90_range.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.p10_p90_range"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-p10-p90-v1+p10",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.p10_p90_range.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.p10_p90_range"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "contrast-p10-p90-v1+p90",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "contrast.p10_p90_range.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "contrast.p10_p90_range"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "edge-boundary-component-ratio-v1+mean",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "edge.boundary_continuity.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "edge.boundary_continuity"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "edge-boundary-component-ratio-v1+median",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "edge.boundary_continuity.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "edge.boundary_continuity"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "edge-boundary-component-ratio-v1+std",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "edge.boundary_continuity.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "edge.boundary_continuity"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "edge-boundary-component-ratio-v1+iqr",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "edge.boundary_continuity.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "edge.boundary_continuity"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "edge-boundary-component-ratio-v1+min",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "edge.boundary_continuity.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "edge.boundary_continuity"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "edge-boundary-component-ratio-v1+max",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "edge.boundary_continuity.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "edge.boundary_continuity"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "edge-boundary-component-ratio-v1+p10",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "edge.boundary_continuity.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "edge.boundary_continuity"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "edge-boundary-component-ratio-v1+p90",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "edge.boundary_continuity.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "edge.boundary_continuity"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "edge-canny-density-v1+mean",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "edge.canny_density.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "edge.canny_density"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "edge-canny-density-v1+median",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "edge.canny_density.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "edge.canny_density"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "edge-canny-density-v1+std",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "edge.canny_density.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "edge.canny_density"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "edge-canny-density-v1+iqr",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "edge.canny_density.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "edge.canny_density"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "edge-canny-density-v1+min",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "edge.canny_density.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "edge.canny_density"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "edge-canny-density-v1+max",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "edge.canny_density.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "edge.canny_density"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "edge-canny-density-v1+p10",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "edge.canny_density.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "edge.canny_density"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "edge-canny-density-v1+p90",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "edge.canny_density.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "edge.canny_density"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-area-ratio-v1+mean",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.area_ratio.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.area_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-area-ratio-v1+median",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.area_ratio.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.area_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-area-ratio-v1+std",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.area_ratio.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.area_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-area-ratio-v1+iqr",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.area_ratio.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.area_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-area-ratio-v1+min",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.area_ratio.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.area_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-area-ratio-v1+max",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.area_ratio.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.area_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-area-ratio-v1+p10",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.area_ratio.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.area_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-area-ratio-v1+p90",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.area_ratio.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.area_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-aspect-ratio-v1+mean",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.aspect_ratio.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.aspect_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-aspect-ratio-v1+median",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.aspect_ratio.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.aspect_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-aspect-ratio-v1+std",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.aspect_ratio.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.aspect_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-aspect-ratio-v1+iqr",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.aspect_ratio.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.aspect_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-aspect-ratio-v1+min",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.aspect_ratio.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.aspect_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-aspect-ratio-v1+max",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.aspect_ratio.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.aspect_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-aspect-ratio-v1+p10",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.aspect_ratio.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.aspect_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-aspect-ratio-v1+p90",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.aspect_ratio.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.aspect_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-center-x-v1+mean",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.center_x.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.center_x"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-center-x-v1+median",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.center_x.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.center_x"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-center-x-v1+std",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.center_x.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.center_x"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-center-x-v1+iqr",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.center_x.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.center_x"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-center-x-v1+min",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.center_x.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.center_x"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-center-x-v1+max",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.center_x.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.center_x"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-center-x-v1+p10",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.center_x.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.center_x"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-center-x-v1+p90",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.center_x.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.center_x"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-center-y-v1+mean",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.center_y.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.center_y"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-center-y-v1+median",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.center_y.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.center_y"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-center-y-v1+std",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.center_y.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.center_y"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-center-y-v1+iqr",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.center_y.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.center_y"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-center-y-v1+min",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.center_y.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.center_y"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-center-y-v1+max",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.center_y.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.center_y"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-center-y-v1+p10",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.center_y.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.center_y"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-center-y-v1+p90",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.center_y.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.center_y"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-height-ratio-v1+mean",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.height_ratio.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.height_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-height-ratio-v1+median",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.height_ratio.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.height_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-height-ratio-v1+std",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.height_ratio.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.height_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-height-ratio-v1+iqr",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.height_ratio.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.height_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-height-ratio-v1+min",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.height_ratio.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.height_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-height-ratio-v1+max",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.height_ratio.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.height_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-height-ratio-v1+p10",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.height_ratio.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.height_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-height-ratio-v1+p90",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.height_ratio.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.height_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-orientation-v1+mean",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.orientation.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.orientation"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-orientation-v1+median",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.orientation.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.orientation"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-orientation-v1+std",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.orientation.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.orientation"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-orientation-v1+iqr",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.orientation.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.orientation"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-orientation-v1+min",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.orientation.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.orientation"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-orientation-v1+max",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.orientation.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.orientation"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-orientation-v1+p10",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.orientation.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.orientation"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-orientation-v1+p90",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.orientation.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.orientation"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-width-ratio-v1+mean",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.width_ratio.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.width_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-width-ratio-v1+median",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.width_ratio.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.width_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-width-ratio-v1+std",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.width_ratio.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.width_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-width-ratio-v1+iqr",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.width_ratio.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.width_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-width-ratio-v1+min",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.width_ratio.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.width_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-width-ratio-v1+max",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.width_ratio.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.width_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-width-ratio-v1+p10",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.width_ratio.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.width_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "geometry-width-ratio-v1+p90",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "geometry.width_ratio.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "geometry.width_ratio"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-mean-v1+mean",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_mean.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-mean-v1+median",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_mean.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-mean-v1+std",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_mean.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-mean-v1+iqr",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_mean.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-mean-v1+min",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_mean.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-mean-v1+max",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_mean.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-mean-v1+p10",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_mean.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-mean-v1+p90",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_mean.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-p90-v1+mean",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_p90.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_p90"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-p90-v1+median",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_p90.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_p90"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-p90-v1+std",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_p90.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_p90"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-p90-v1+iqr",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_p90.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_p90"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-p90-v1+min",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_p90.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_p90"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-p90-v1+max",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_p90.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_p90"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-p90-v1+p10",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_p90.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_p90"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-p90-v1+p90",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_p90.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_p90"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-std-v1+mean",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_std.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-std-v1+median",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_std.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-std-v1+std",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_std.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-std-v1+iqr",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_std.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-std-v1+min",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_std.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-std-v1+max",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_std.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-std-v1+p10",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_std.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-sobel-std-v1+p90",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.magnitude_std.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.magnitude_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-orientation-entropy-v1+mean",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.orientation_entropy.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.orientation_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-orientation-entropy-v1+median",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.orientation_entropy.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.orientation_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-orientation-entropy-v1+std",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.orientation_entropy.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.orientation_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-orientation-entropy-v1+iqr",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.orientation_entropy.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.orientation_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-orientation-entropy-v1+min",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.orientation_entropy.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.orientation_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-orientation-entropy-v1+max",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.orientation_entropy.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.orientation_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-orientation-entropy-v1+p10",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.orientation_entropy.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.orientation_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "gradient-orientation-entropy-v1+p90",
+      "group": "edge_gradient",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "gradient.orientation_entropy.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "gradient.orientation_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-compactness-mean-v1+mean",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.compactness_mean.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.compactness_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-compactness-mean-v1+median",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.compactness_mean.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.compactness_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-compactness-mean-v1+std",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.compactness_mean.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.compactness_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-compactness-mean-v1+iqr",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.compactness_mean.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.compactness_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-compactness-mean-v1+min",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.compactness_mean.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.compactness_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-compactness-mean-v1+max",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.compactness_mean.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.compactness_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-compactness-mean-v1+p10",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.compactness_mean.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.compactness_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-compactness-mean-v1+p90",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.compactness_mean.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.compactness_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-area-median-v1+mean",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_area_median.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_area_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-area-median-v1+median",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_area_median.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_area_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-area-median-v1+std",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_area_median.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_area_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-area-median-v1+iqr",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_area_median.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_area_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-area-median-v1+min",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_area_median.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_area_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-area-median-v1+max",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_area_median.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_area_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-area-median-v1+p10",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_area_median.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_area_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-area-median-v1+p90",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_area_median.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_area_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-aspect-median-v1+mean",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_aspect_median.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_aspect_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-aspect-median-v1+median",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_aspect_median.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_aspect_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-aspect-median-v1+std",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_aspect_median.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_aspect_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-aspect-median-v1+iqr",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_aspect_median.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_aspect_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-aspect-median-v1+min",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_aspect_median.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_aspect_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-aspect-median-v1+max",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_aspect_median.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_aspect_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-aspect-median-v1+p10",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_aspect_median.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_aspect_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-aspect-median-v1+p90",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_aspect_median.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_aspect_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-count-v1+mean",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_count.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_count"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-count-v1+median",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_count.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_count"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-count-v1+std",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_count.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_count"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-count-v1+iqr",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_count.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_count"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-count-v1+min",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_count.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_count"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-count-v1+max",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_count.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_count"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-count-v1+p10",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_count.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_count"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-component-count-v1+p90",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.component_count.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.component_count"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-hole-count-v1+mean",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.hole_count.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.hole_count"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-hole-count-v1+median",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.hole_count.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.hole_count"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-hole-count-v1+std",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.hole_count.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.hole_count"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-hole-count-v1+iqr",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.hole_count.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.hole_count"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-hole-count-v1+min",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.hole_count.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.hole_count"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-hole-count-v1+max",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.hole_count.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.hole_count"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-hole-count-v1+p10",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.hole_count.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.hole_count"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-hole-count-v1+p90",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.hole_count.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.hole_count"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-solidity-mean-v1+mean",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.solidity_mean.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.solidity_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-solidity-mean-v1+median",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.solidity_mean.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.solidity_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-solidity-mean-v1+std",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.solidity_mean.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.solidity_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-solidity-mean-v1+iqr",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.solidity_mean.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.solidity_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-solidity-mean-v1+min",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.solidity_mean.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.solidity_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-solidity-mean-v1+max",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.solidity_mean.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.solidity_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-solidity-mean-v1+p10",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.solidity_mean.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.solidity_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "shape-solidity-mean-v1+p90",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "shape.solidity_mean.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "shape.solidity_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "sharpness-laplacian-variance-v1+mean",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "sharpness.laplacian_variance.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "sharpness.laplacian_variance"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "sharpness-laplacian-variance-v1+median",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "sharpness.laplacian_variance.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "sharpness.laplacian_variance"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "sharpness-laplacian-variance-v1+std",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "sharpness.laplacian_variance.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "sharpness.laplacian_variance"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "sharpness-laplacian-variance-v1+iqr",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "sharpness.laplacian_variance.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "sharpness.laplacian_variance"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "sharpness-laplacian-variance-v1+min",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "sharpness.laplacian_variance.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "sharpness.laplacian_variance"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "sharpness-laplacian-variance-v1+max",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "sharpness.laplacian_variance.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "sharpness.laplacian_variance"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "sharpness-laplacian-variance-v1+p10",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "sharpness.laplacian_variance.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "sharpness.laplacian_variance"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "sharpness-laplacian-variance-v1+p90",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "sharpness.laplacian_variance.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "sharpness.laplacian_variance"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "sharpness-tenengrad-mean-v1+mean",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "sharpness.tenengrad_mean.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "sharpness.tenengrad_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "sharpness-tenengrad-mean-v1+median",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "sharpness.tenengrad_mean.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "sharpness.tenengrad_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "sharpness-tenengrad-mean-v1+std",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "sharpness.tenengrad_mean.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "sharpness.tenengrad_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "sharpness-tenengrad-mean-v1+iqr",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "sharpness.tenengrad_mean.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "sharpness.tenengrad_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "sharpness-tenengrad-mean-v1+min",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "sharpness.tenengrad_mean.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "sharpness.tenengrad_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "sharpness-tenengrad-mean-v1+max",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "sharpness.tenengrad_mean.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "sharpness.tenengrad_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "sharpness-tenengrad-mean-v1+p10",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "sharpness.tenengrad_mean.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "sharpness.tenengrad_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "sharpness-tenengrad-mean-v1+p90",
+      "group": "contrast_sharpness",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "sharpness.tenengrad_mean.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "sharpness.tenengrad_mean"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-valid-fraction-v1+mean",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.valid_fraction.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.valid_fraction"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-valid-fraction-v1+median",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.valid_fraction.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.valid_fraction"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-valid-fraction-v1+std",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.valid_fraction.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.valid_fraction"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-valid-fraction-v1+iqr",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.valid_fraction.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.valid_fraction"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-valid-fraction-v1+min",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.valid_fraction.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.valid_fraction"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-valid-fraction-v1+max",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.valid_fraction.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.valid_fraction"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-valid-fraction-v1+p10",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.valid_fraction.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.valid_fraction"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-valid-fraction-v1+p90",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.valid_fraction.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.valid_fraction"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-iqr-v1+mean",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_iqr.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_iqr"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-iqr-v1+median",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_iqr.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_iqr"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-iqr-v1+std",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_iqr.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_iqr"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-iqr-v1+iqr",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_iqr.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_iqr"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-iqr-v1+min",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_iqr.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_iqr"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-iqr-v1+max",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_iqr.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_iqr"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-iqr-v1+p10",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_iqr.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_iqr"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-iqr-v1+p90",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_iqr.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_iqr"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-median-v1+mean",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_median.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-median-v1+median",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_median.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-median-v1+std",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_median.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-median-v1+iqr",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_median.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-median-v1+min",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_median.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-median-v1+max",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_median.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-median-v1+p10",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_median.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-median-v1+p90",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_median.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_median"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-p90-v1+mean",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_p90.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_p90"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-p90-v1+median",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_p90.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_p90"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-p90-v1+std",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_p90.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_p90"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-p90-v1+iqr",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_p90.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_p90"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-p90-v1+min",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_p90.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_p90"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-p90-v1+max",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_p90.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_p90"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-p90-v1+p10",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_p90.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_p90"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-p90-v1+p90",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_p90.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_p90"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-std-v1+mean",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_std.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-std-v1+median",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_std.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-std-v1+std",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_std.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-std-v1+iqr",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_std.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-std-v1+min",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_std.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-std-v1+max",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_std.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-std-v1+p10",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_std.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "stroke-distance-std-v1+p90",
+      "group": "stroke_shape",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "stroke.width_std.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "stroke.width_std"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-glcm-contrast-v1+mean",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.glcm_contrast.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.glcm_contrast"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-glcm-contrast-v1+median",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.glcm_contrast.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.glcm_contrast"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-glcm-contrast-v1+std",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.glcm_contrast.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.glcm_contrast"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-glcm-contrast-v1+iqr",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.glcm_contrast.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.glcm_contrast"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-glcm-contrast-v1+min",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.glcm_contrast.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.glcm_contrast"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-glcm-contrast-v1+max",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.glcm_contrast.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.glcm_contrast"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-glcm-contrast-v1+p10",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.glcm_contrast.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.glcm_contrast"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-glcm-contrast-v1+p90",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.glcm_contrast.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.glcm_contrast"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-glcm-homogeneity-v1+mean",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.glcm_homogeneity.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.glcm_homogeneity"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-glcm-homogeneity-v1+median",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.glcm_homogeneity.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.glcm_homogeneity"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-glcm-homogeneity-v1+std",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.glcm_homogeneity.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.glcm_homogeneity"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-glcm-homogeneity-v1+iqr",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.glcm_homogeneity.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.glcm_homogeneity"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-glcm-homogeneity-v1+min",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.glcm_homogeneity.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.glcm_homogeneity"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-glcm-homogeneity-v1+max",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.glcm_homogeneity.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.glcm_homogeneity"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-glcm-homogeneity-v1+p10",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.glcm_homogeneity.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.glcm_homogeneity"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-glcm-homogeneity-v1+p90",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.glcm_homogeneity.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.glcm_homogeneity"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-gray-entropy-v1+mean",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.gray_entropy.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.gray_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-gray-entropy-v1+median",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.gray_entropy.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.gray_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-gray-entropy-v1+std",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.gray_entropy.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.gray_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-gray-entropy-v1+iqr",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.gray_entropy.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.gray_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-gray-entropy-v1+min",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.gray_entropy.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.gray_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-gray-entropy-v1+max",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.gray_entropy.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.gray_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-gray-entropy-v1+p10",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.gray_entropy.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.gray_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-gray-entropy-v1+p90",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.gray_entropy.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.gray_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-lbp-entropy-v1+mean",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.lbp_entropy.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.lbp_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-lbp-entropy-v1+median",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.lbp_entropy.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.lbp_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-lbp-entropy-v1+std",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.lbp_entropy.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.lbp_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-lbp-entropy-v1+iqr",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.lbp_entropy.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.lbp_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-lbp-entropy-v1+min",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.lbp_entropy.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.lbp_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-lbp-entropy-v1+max",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.lbp_entropy.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.lbp_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-lbp-entropy-v1+p10",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.lbp_entropy.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.lbp_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-lbp-entropy-v1+p90",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.lbp_entropy.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.lbp_entropy"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-lbp-uniform-fraction-v1+mean",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.lbp_uniform_fraction.mean",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.lbp_uniform_fraction"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-lbp-uniform-fraction-v1+median",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.lbp_uniform_fraction.median",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.lbp_uniform_fraction"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-lbp-uniform-fraction-v1+std",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.lbp_uniform_fraction.std",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.lbp_uniform_fraction"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-lbp-uniform-fraction-v1+iqr",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.lbp_uniform_fraction.iqr",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.lbp_uniform_fraction"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-lbp-uniform-fraction-v1+min",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.lbp_uniform_fraction.min",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.lbp_uniform_fraction"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-lbp-uniform-fraction-v1+max",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.lbp_uniform_fraction.max",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.lbp_uniform_fraction"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-lbp-uniform-fraction-v1+p10",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.lbp_uniform_fraction.p10",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.lbp_uniform_fraction"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "texture-lbp-uniform-fraction-v1+p90",
+      "group": "texture",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "texture.lbp_uniform_fraction.p90",
+      "schema_version": "features-1",
+      "source_fields": [
+        "texture.lbp_uniform_fraction"
+      ]
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "density-area-sum-ratio-v1",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "density.area_sum_ratio",
+      "schema_version": "features-1",
+      "source_fields": []
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "density-region-count-v1",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "density.region_count",
+      "schema_version": "features-1",
+      "source_fields": []
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "density-union-coverage-v1",
+      "group": "geometry_density",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "density.union_coverage",
+      "schema_version": "features-1",
+      "source_fields": []
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "layout-centroid-dispersion-x-v1",
+      "group": "spacing_alignment",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "layout.centroid_dispersion_x",
+      "schema_version": "features-1",
+      "source_fields": []
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "layout-centroid-dispersion-y-v1",
+      "group": "spacing_alignment",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "layout.centroid_dispersion_y",
+      "schema_version": "features-1",
+      "source_fields": []
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "layout-nearest-horizontal-gap-v1",
+      "group": "spacing_alignment",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "layout.nearest_horizontal_gap",
+      "schema_version": "features-1",
+      "source_fields": []
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "layout-nearest-vertical-gap-v1",
+      "group": "spacing_alignment",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "layout.nearest_vertical_gap",
+      "schema_version": "features-1",
+      "source_fields": []
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "layout-overlap-ratio-v1",
+      "group": "spacing_alignment",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "layout.overlap_ratio",
+      "schema_version": "features-1",
+      "source_fields": []
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        null,
+        null
+      ],
+      "formula_id": "layout-row-alignment-error-v1",
+      "group": "spacing_alignment",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "layout.row_alignment_error",
+      "schema_version": "features-1",
+      "source_fields": []
+    },
+    {
+      "availability": "available",
+      "diagnostic_only": false,
+      "dtype": "float64",
+      "expected_range": [
+        0,
+        1
+      ],
+      "formula_id": "quality-no-detection-v1",
+      "group": "quality",
+      "level": "image",
+      "missing_policy": "nan_then_training_imputation",
+      "model_input": true,
+      "name": "quality.no_detection",
+      "schema_version": "features-1",
+      "source_fields": []
+    }
+  ],
+  "model_columns": [
+    "contrast.gray_std.iqr",
+    "contrast.gray_std.max",
+    "contrast.gray_std.mean",
+    "contrast.gray_std.median",
+    "contrast.gray_std.min",
+    "contrast.gray_std.p10",
+    "contrast.gray_std.p90",
+    "contrast.gray_std.std",
+    "contrast.local_ring_delta.iqr",
+    "contrast.local_ring_delta.max",
+    "contrast.local_ring_delta.mean",
+    "contrast.local_ring_delta.median",
+    "contrast.local_ring_delta.min",
+    "contrast.local_ring_delta.p10",
+    "contrast.local_ring_delta.p90",
+    "contrast.local_ring_delta.std",
+    "contrast.p10_p90_range.iqr",
+    "contrast.p10_p90_range.max",
+    "contrast.p10_p90_range.mean",
+    "contrast.p10_p90_range.median",
+    "contrast.p10_p90_range.min",
+    "contrast.p10_p90_range.p10",
+    "contrast.p10_p90_range.p90",
+    "contrast.p10_p90_range.std",
+    "density.area_sum_ratio",
+    "density.region_count",
+    "density.union_coverage",
+    "edge.boundary_continuity.iqr",
+    "edge.boundary_continuity.max",
+    "edge.boundary_continuity.mean",
+    "edge.boundary_continuity.median",
+    "edge.boundary_continuity.min",
+    "edge.boundary_continuity.p10",
+    "edge.boundary_continuity.p90",
+    "edge.boundary_continuity.std",
+    "edge.canny_density.iqr",
+    "edge.canny_density.max",
+    "edge.canny_density.mean",
+    "edge.canny_density.median",
+    "edge.canny_density.min",
+    "edge.canny_density.p10",
+    "edge.canny_density.p90",
+    "edge.canny_density.std",
+    "geometry.area_ratio.iqr",
+    "geometry.area_ratio.max",
+    "geometry.area_ratio.mean",
+    "geometry.area_ratio.median",
+    "geometry.area_ratio.min",
+    "geometry.area_ratio.p10",
+    "geometry.area_ratio.p90",
+    "geometry.area_ratio.std",
+    "geometry.aspect_ratio.iqr",
+    "geometry.aspect_ratio.max",
+    "geometry.aspect_ratio.mean",
+    "geometry.aspect_ratio.median",
+    "geometry.aspect_ratio.min",
+    "geometry.aspect_ratio.p10",
+    "geometry.aspect_ratio.p90",
+    "geometry.aspect_ratio.std",
+    "geometry.center_x.iqr",
+    "geometry.center_x.max",
+    "geometry.center_x.mean",
+    "geometry.center_x.median",
+    "geometry.center_x.min",
+    "geometry.center_x.p10",
+    "geometry.center_x.p90",
+    "geometry.center_x.std",
+    "geometry.center_y.iqr",
+    "geometry.center_y.max",
+    "geometry.center_y.mean",
+    "geometry.center_y.median",
+    "geometry.center_y.min",
+    "geometry.center_y.p10",
+    "geometry.center_y.p90",
+    "geometry.center_y.std",
+    "geometry.height_ratio.iqr",
+    "geometry.height_ratio.max",
+    "geometry.height_ratio.mean",
+    "geometry.height_ratio.median",
+    "geometry.height_ratio.min",
+    "geometry.height_ratio.p10",
+    "geometry.height_ratio.p90",
+    "geometry.height_ratio.std",
+    "geometry.orientation.iqr",
+    "geometry.orientation.max",
+    "geometry.orientation.mean",
+    "geometry.orientation.median",
+    "geometry.orientation.min",
+    "geometry.orientation.p10",
+    "geometry.orientation.p90",
+    "geometry.orientation.std",
+    "geometry.width_ratio.iqr",
+    "geometry.width_ratio.max",
+    "geometry.width_ratio.mean",
+    "geometry.width_ratio.median",
+    "geometry.width_ratio.min",
+    "geometry.width_ratio.p10",
+    "geometry.width_ratio.p90",
+    "geometry.width_ratio.std",
+    "gradient.magnitude_mean.iqr",
+    "gradient.magnitude_mean.max",
+    "gradient.magnitude_mean.mean",
+    "gradient.magnitude_mean.median",
+    "gradient.magnitude_mean.min",
+    "gradient.magnitude_mean.p10",
+    "gradient.magnitude_mean.p90",
+    "gradient.magnitude_mean.std",
+    "gradient.magnitude_p90.iqr",
+    "gradient.magnitude_p90.max",
+    "gradient.magnitude_p90.mean",
+    "gradient.magnitude_p90.median",
+    "gradient.magnitude_p90.min",
+    "gradient.magnitude_p90.p10",
+    "gradient.magnitude_p90.p90",
+    "gradient.magnitude_p90.std",
+    "gradient.magnitude_std.iqr",
+    "gradient.magnitude_std.max",
+    "gradient.magnitude_std.mean",
+    "gradient.magnitude_std.median",
+    "gradient.magnitude_std.min",
+    "gradient.magnitude_std.p10",
+    "gradient.magnitude_std.p90",
+    "gradient.magnitude_std.std",
+    "gradient.orientation_entropy.iqr",
+    "gradient.orientation_entropy.max",
+    "gradient.orientation_entropy.mean",
+    "gradient.orientation_entropy.median",
+    "gradient.orientation_entropy.min",
+    "gradient.orientation_entropy.p10",
+    "gradient.orientation_entropy.p90",
+    "gradient.orientation_entropy.std",
+    "layout.centroid_dispersion_x",
+    "layout.centroid_dispersion_y",
+    "layout.nearest_horizontal_gap",
+    "layout.nearest_vertical_gap",
+    "layout.overlap_ratio",
+    "layout.row_alignment_error",
+    "quality.no_detection",
+    "shape.compactness_mean.iqr",
+    "shape.compactness_mean.max",
+    "shape.compactness_mean.mean",
+    "shape.compactness_mean.median",
+    "shape.compactness_mean.min",
+    "shape.compactness_mean.p10",
+    "shape.compactness_mean.p90",
+    "shape.compactness_mean.std",
+    "shape.component_area_median.iqr",
+    "shape.component_area_median.max",
+    "shape.component_area_median.mean",
+    "shape.component_area_median.median",
+    "shape.component_area_median.min",
+    "shape.component_area_median.p10",
+    "shape.component_area_median.p90",
+    "shape.component_area_median.std",
+    "shape.component_aspect_median.iqr",
+    "shape.component_aspect_median.max",
+    "shape.component_aspect_median.mean",
+    "shape.component_aspect_median.median",
+    "shape.component_aspect_median.min",
+    "shape.component_aspect_median.p10",
+    "shape.component_aspect_median.p90",
+    "shape.component_aspect_median.std",
+    "shape.component_count.iqr",
+    "shape.component_count.max",
+    "shape.component_count.mean",
+    "shape.component_count.median",
+    "shape.component_count.min",
+    "shape.component_count.p10",
+    "shape.component_count.p90",
+    "shape.component_count.std",
+    "shape.hole_count.iqr",
+    "shape.hole_count.max",
+    "shape.hole_count.mean",
+    "shape.hole_count.median",
+    "shape.hole_count.min",
+    "shape.hole_count.p10",
+    "shape.hole_count.p90",
+    "shape.hole_count.std",
+    "shape.solidity_mean.iqr",
+    "shape.solidity_mean.max",
+    "shape.solidity_mean.mean",
+    "shape.solidity_mean.median",
+    "shape.solidity_mean.min",
+    "shape.solidity_mean.p10",
+    "shape.solidity_mean.p90",
+    "shape.solidity_mean.std",
+    "sharpness.laplacian_variance.iqr",
+    "sharpness.laplacian_variance.max",
+    "sharpness.laplacian_variance.mean",
+    "sharpness.laplacian_variance.median",
+    "sharpness.laplacian_variance.min",
+    "sharpness.laplacian_variance.p10",
+    "sharpness.laplacian_variance.p90",
+    "sharpness.laplacian_variance.std",
+    "sharpness.tenengrad_mean.iqr",
+    "sharpness.tenengrad_mean.max",
+    "sharpness.tenengrad_mean.mean",
+    "sharpness.tenengrad_mean.median",
+    "sharpness.tenengrad_mean.min",
+    "sharpness.tenengrad_mean.p10",
+    "sharpness.tenengrad_mean.p90",
+    "sharpness.tenengrad_mean.std",
+    "stroke.valid_fraction.iqr",
+    "stroke.valid_fraction.max",
+    "stroke.valid_fraction.mean",
+    "stroke.valid_fraction.median",
+    "stroke.valid_fraction.min",
+    "stroke.valid_fraction.p10",
+    "stroke.valid_fraction.p90",
+    "stroke.valid_fraction.std",
+    "stroke.width_iqr.iqr",
+    "stroke.width_iqr.max",
+    "stroke.width_iqr.mean",
+    "stroke.width_iqr.median",
+    "stroke.width_iqr.min",
+    "stroke.width_iqr.p10",
+    "stroke.width_iqr.p90",
+    "stroke.width_iqr.std",
+    "stroke.width_median.iqr",
+    "stroke.width_median.max",
+    "stroke.width_median.mean",
+    "stroke.width_median.median",
+    "stroke.width_median.min",
+    "stroke.width_median.p10",
+    "stroke.width_median.p90",
+    "stroke.width_median.std",
+    "stroke.width_p90.iqr",
+    "stroke.width_p90.max",
+    "stroke.width_p90.mean",
+    "stroke.width_p90.median",
+    "stroke.width_p90.min",
+    "stroke.width_p90.p10",
+    "stroke.width_p90.p90",
+    "stroke.width_p90.std",
+    "stroke.width_std.iqr",
+    "stroke.width_std.max",
+    "stroke.width_std.mean",
+    "stroke.width_std.median",
+    "stroke.width_std.min",
+    "stroke.width_std.p10",
+    "stroke.width_std.p90",
+    "stroke.width_std.std",
+    "texture.glcm_contrast.iqr",
+    "texture.glcm_contrast.max",
+    "texture.glcm_contrast.mean",
+    "texture.glcm_contrast.median",
+    "texture.glcm_contrast.min",
+    "texture.glcm_contrast.p10",
+    "texture.glcm_contrast.p90",
+    "texture.glcm_contrast.std",
+    "texture.glcm_homogeneity.iqr",
+    "texture.glcm_homogeneity.max",
+    "texture.glcm_homogeneity.mean",
+    "texture.glcm_homogeneity.median",
+    "texture.glcm_homogeneity.min",
+    "texture.glcm_homogeneity.p10",
+    "texture.glcm_homogeneity.p90",
+    "texture.glcm_homogeneity.std",
+    "texture.gray_entropy.iqr",
+    "texture.gray_entropy.max",
+    "texture.gray_entropy.mean",
+    "texture.gray_entropy.median",
+    "texture.gray_entropy.min",
+    "texture.gray_entropy.p10",
+    "texture.gray_entropy.p90",
+    "texture.gray_entropy.std",
+    "texture.lbp_entropy.iqr",
+    "texture.lbp_entropy.max",
+    "texture.lbp_entropy.mean",
+    "texture.lbp_entropy.median",
+    "texture.lbp_entropy.min",
+    "texture.lbp_entropy.p10",
+    "texture.lbp_entropy.p90",
+    "texture.lbp_entropy.std",
+    "texture.lbp_uniform_fraction.iqr",
+    "texture.lbp_uniform_fraction.max",
+    "texture.lbp_uniform_fraction.mean",
+    "texture.lbp_uniform_fraction.median",
+    "texture.lbp_uniform_fraction.min",
+    "texture.lbp_uniform_fraction.p10",
+    "texture.lbp_uniform_fraction.p90",
+    "texture.lbp_uniform_fraction.std"
+  ],
+  "schema_version": "features-1"
+}

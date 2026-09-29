@@ -1,0 +1,17 @@
+{
+  "accuracy": 1.0,
+  "confusion_matrix": {
+    "fn": 0,
+    "fp": 0,
+    "tn": 128,
+    "tp": 128
+  },
+  "f1": 1.0,
+  "positive_class": "ai_generated",
+  "precision": 1.0,
+  "recall": 1.0,
+  "sample_count": 256,
+  "threshold": 0.9213612857537781,
+  "threshold_convention": "score >= threshold => ai_generated",
+  "zero_division": 0
+}
