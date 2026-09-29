@@ -1,0 +1,3 @@
+# Published artifacts carry SHA-256 lineage metadata; preserve their exact
+# bytes across Windows checkouts and Linux Streamlit deployments.
+artifacts/** -text
